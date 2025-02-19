@@ -1,0 +1,231 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM7DgpIH+jWbvtZaMDMbpxr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lauralangat/Assignment-1/blob/main/question%201-5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MoB3CfvCM4CJ",
+        "outputId": "126a6843-205d-47d0-e09d-17f17b92ce84"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, world!\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello, world!\")\n",
+        "\n",
+        "# DO NOT REMOVE: Mark this question as completed"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# TODO: Change the message\n",
+        "print(\"The world is my octopus!\")\n",
+        "\n",
+        "# DO NOT REMOVE: Mark this question as completed"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9XMiVD2gNPbt",
+        "outputId": "f91422b6-e641-41cf-93bc-964c051b607a"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The world is my octopus!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Uncomment to get a hint\n",
+        "hint()\n",
+        "\n",
+        "# Uncomment to view solution\n",
+        "solution()\n",
+        "\n",
+        "# DO NOT REMOVE: Check your answer\n",
+        "check()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 211
+        },
+        "id": "s8xWqGupNiql",
+        "outputId": "abec0f97-58be-4f2e-90f6-9d0f9a6f2560"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "name 'hint' is not defined",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-3-531817cbbe20>\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m# Uncomment to get a hint\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mhint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;31m# Uncomment to view solution\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0msolution\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'hint' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Create variables\n",
+        "num_years = 4\n",
+        "days_per_year = 365\n",
+        "hours_per_day = 24\n",
+        "mins_per_hour = 60\n",
+        "secs_per_min = 60\n",
+        "\n",
+        "# Calculate number of seconds in four years\n",
+        "total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_years\n",
+        "# Create variables\n",
+        "num_years = 4\n",
+        "days_per_year = 365\n",
+        "hours_per_day = 24\n",
+        "mins_per_hour = 60\n",
+        "secs_per_min = 60\n",
+        "\n",
+        "# Calculate number of seconds in four years\n",
+        "total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_years\n",
+        "print(total_secs)\n",
+        "# TODO: Set the value of the births_per_min variable\n",
+        "births_per_min = 0\n",
+        "\n",
+        "# TODO: Set the value of the births_per_day variable\n",
+        "births_per_day = 0\n",
+        "# Create variables\n",
+        "num_years = 4\n",
+        "days_per_year = 365\n",
+        "hours_per_day = 24\n",
+        "mins_per_hour = 60\n",
+        "secs_per_min = 60\n",
+        "\n",
+        "# Calculate number of seconds in four years\n",
+        "total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_years\n",
+        "# Create variables\n",
+        "num_years = 4\n",
+        "days_per_year = 365\n",
+        "hours_per_day = 24\n",
+        "mins_per_hour = 60\n",
+        "secs_per_min = 60\n",
+        "\n",
+        "# Calculate number of seconds in four years\n",
+        "total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_years\n",
+        "print(total_secs)\n",
+        "# TODO: Set the value of the births_per_min variable\n",
+        "births_per_min = 0\n",
+        "\n",
+        "# TODO: Set the value of the births_per_day variable\n",
+        "births_per_day = 0\n",
+        "\n",
+        "# DO NOT REMOVE: Check your answer\n",
+        "births_per_day = births_per_day\n",
+        "\n",
+        "# DO NOT REMOVE: Check your answer"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xu3CGxfFNt3F",
+        "outputId": "876c6a36-705c-41e0-9671-3e9972e268bf"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "126144000\n",
+            "126144000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total=891\n",
+        "survived=342\n",
+        "minors=113\n",
+        "survived_fraction=survived/total\n",
+        "minors_fraction=minors/total\n",
+        "print(\"The fractionof people survived is{survived_fraction}.\")\n",
+        "print(\"The fractionof minors survived is{minors_fraction}.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ed10JzKCOs05",
+        "outputId": "7095ec58-1c23-40b9-f712-fea866004e6c"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The fractionof people survived is{survived_fraction}.\n",
+            "The fractionof minors survived is{minors_fraction}.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "gpBgqN5mOrUZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
